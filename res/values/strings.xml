@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenNebula Mobile Manager</string>
+    <string name="action_settings">Configurações</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="title_activity_fragment_main">Centro de Operações OpenNebula</string>
+    <string name="title_activity_listar_vm">Lista de MVs</string>
+    <string name="title_activity_opcoes">Menu de Opções</string>
+    <string name="listarmv">Listar Máquinas Virtuais</string>
+    <string name="botao">Entrar</string>
+    <string name="addmv">Criar Nova Máquina Virtual</string>
+    <string name="title_activity_adicionar_mv">Criar Máquina Virtual</string>
+    <string name="nome">Nome</string>
+    <string name="template">Template</string>
+    <string name="criar">Criar</string>
+    <string name="nenhuma_mv">Não Existe Nenhuma Máquina Virtual Criada!</string>
+    <string name="title_activity_info_mv">Informações</string>
+    <string name="sair">Sair</string>
+    <string name="parar">Parar MV</string>
+    <string name="resumir">Resumir MV</string>
+    <string name="desligar">Desligar MV</string>
+    <string name="reiniciar">Reiniciar MV</string>
+    <string name="titulo">Centro de Operações da Nuvem</string>
+    <string name="escolha_template">Selecione um Template</string>
+
+</resources>

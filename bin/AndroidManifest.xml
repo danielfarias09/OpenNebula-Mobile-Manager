@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.ufc.opennebula"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.ufc.opennebula.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.ufc.opennebula.ListarVMActivity"
+            android:label="@string/title_activity_listar_vm" >
+        </activity>
+        <activity
+            android:name="br.com.ufc.opennebula.OpcoesActivity"
+            android:label="@string/title_activity_opcoes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="br.com.ufc.opennebula.AdicionarMVActivity"
+            android:label="@string/title_activity_adicionar_mv" >
+        </activity>
+        <activity
+            android:name="br.com.ufc.opennebula.item_listview"
+            android:label="@string/title_activity_adicionar_mv" >
+        </activity>
+        <activity
+            android:name="br.com.ufc.opennebula.InfoMVActivity"
+            android:label="@string/title_activity_info_mv" >
+        </activity>
+    </application>
+
+</manifest>

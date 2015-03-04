@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item
+      android:id="@+id/parar"
+      android:title="@string/parar" 
+      android:icon="@drawable/parar"
+      android:showAsAction="always"/>
+    <item
+      android:id="@+id/resumir"
+      android:title="@string/resumir" 
+      android:icon="@drawable/resumir"
+      android:showAsAction="always"/>
+    <item
+      android:id="@+id/desligar"
+      android:title="@string/desligar"
+      android:icon="@drawable/desligar"
+      android:showAsAction="always"/>
+     <item
+      android:id="@+id/reiniciar"
+      android:title="@string/reiniciar"
+      android:icon="@drawable/reiniciar"
+      android:showAsAction="always"/>
+    
+
+</menu>
